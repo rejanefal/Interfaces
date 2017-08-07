@@ -9,9 +9,11 @@ package interfaces;
  *
  * @author flavi
  */
-public abstract interface IGameController
-{
-  public abstract boolean initialize();
-  
-  public abstract Object getSimulator();
+public interface ISimulator {
+    
+    public void run();
+    public void start();
+    public void stop();
+    public void init();
+    
 }
